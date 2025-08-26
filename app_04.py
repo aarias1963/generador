@@ -444,8 +444,8 @@ def analyze_pdf_content(pdf_text, api_key):
         }
         
         data = {
-            "model": "claude-3-7-sonnet-20250219",
-            "max_tokens": 1000,
+            "model": "claude-4-sonnet-20250514",
+            "max_tokens": 4000,
             "messages": [
                 {"role": "user", "content": analyze_prompt}
             ]
@@ -565,7 +565,7 @@ Este formato y estructura deben seguirse EXACTAMENTE.
         }
         
         data = {
-            "model": "claude-3-7-sonnet-20250219",
+            "model": "claude-4-sonnet-20250514",
             "max_tokens": 4000,
             "system": system_prompt,
             "messages": [
