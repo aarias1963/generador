@@ -40,7 +40,7 @@ if 'current_pdf' not in st.session_state:
     st.session_state.current_pdf = None
 
 # Título y descripción
-st.title("📚 Generador de Ejercicios de Español A1")
+st.title("📚 Generador de Ejercicios de Español")
 st.markdown("""
 Esta aplicación te permite generar ejercicios educativos para estudiantes de español como lengua extranjera (ELE) 
 de nivel A1. Sube un PDF con el contenido que quieres enseñar y la IA creará ejercicios personalizados.
